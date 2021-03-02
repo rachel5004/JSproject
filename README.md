@@ -1,3 +1,3 @@
 # Personal ToDoList🌿
-### with vanilla JS
+with vanilla JS
 
