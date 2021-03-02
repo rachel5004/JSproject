@@ -1,9 +1,10 @@
 body {
     background-color: #316572;
-    margin-top: 15%;
+    margin-top: 13%;
     margin-left: 20%;
     color : rgb(227, 229, 236);
 }
+
 .js-weather{
     position: absolute;
     top: 8px;
@@ -54,7 +55,6 @@ width:100%;
 transition:800ms ease all;
 }
 
-
 h1,h4 {
     /* color : rgb(227, 229, 236); */
     transition: color 0.5s ease-in-out;
@@ -87,8 +87,24 @@ h1,h4 {
     width: 50%;
     height: 100%;
     animation: fadeIn 0.5s linear;
+    outline: none;
+    border: none;
 }
-
+input {
+    display: block;
+    /* width: 35%; */
+    height: 30px;
+    background: transparent;
+    font-family: Poppins-Regular;
+    font-size: 17px;
+    color: white;
+    line-height: 1.2;
+    padding: 0 2px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 25px;
+}
 @media (max-width:900px) {
     body {
         background-color: #316572;
