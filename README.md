@@ -1,5 +1,5 @@
 # Personal ToDoList🌿
 with vanilla JS
 
-### tech
+### TECH STACK
  vanilaJS,HTML&CSS
