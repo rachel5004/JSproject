@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<div class="left-items">
+				<div>
+					<div class="progress-set">
+						<div class="cheerImageProgress center">
+							<span class="js-completed completed">0% completed!</span>
+						</div>
+						<div class="toDoProgress center">
+				  			<div class="js-toDoProgressBar toDoProgressBar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<h1 class="toDoText">TO DO LIST</h1>
+			<div class="toDoItems">
+                <form class="js-toDoForm toDoForm center">
+                    <div class="toDo-set addbtn">
+                        <input class="js-toDoInput toDoInput" type="text" placeholder="TO DO?"/>
+                        <button class="toDoBtn">submit</button>
+                        <span class="js-empty empty">You can't leave this empty.</span>
+                    </div>
+                </form>
+				<ul class="js-toDoList toDoList">
+					<li class="js-nothing nothing">Nothing to do</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="todobar.js"></script>
+</body>
+</html>
