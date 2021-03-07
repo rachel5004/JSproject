@@ -103,7 +103,7 @@ input {
     outline: none;
     border: none;
     border-bottom: 2px solid white;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 @media (max-width:900px) {
     body {
